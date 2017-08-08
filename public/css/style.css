@@ -1,0 +1,19 @@
+.container {
+	background: #ffffef;
+	height: 100%;
+}
+
+.spider {
+	position: relative;
+	height: 10%;
+	width: 10%;
+	stroke: black;
+}
+
+.rotated-spider {
+	stroke: red;
+	--animation-time: 1s;
+    -webkit-transform: rotate(20deg);
+  	transform: rotate(20deg);
+
+}
